@@ -10,13 +10,13 @@ class UI{
       <div class = "row">
           <div class = "col-md-3">
             <img class = "img-fluid mb-2" src = "${user.avatar_url}">
-            <a href = "${user.html_url}" target = "_blank" class = "btn btn-primary btn-block mb-6">View Profile</a>
+            <a href = "${user.html_url}" target = "_blank" class = "btn btn-primary btn-block mb-6" ><i class="fa-brands fa-github"></i> View Profile</a>
           </div>
           <div class = "col-md-9">
-            <span class = "badge bg-primary"> Public Repos: ${user.public_repos}</span>
-            <span class = "badge bg-warning"> Public Gists: ${user.public_gists}</span>
-            <span class = "badge bg-success"> Followers: ${user.followers}</span>
-            <span class = "badge bg-info"> Following: ${user.following}</span>
+            <span class = "btn btn-primary"> Public Repos: ${user.public_repos}</span>
+            <span class = "btn btn-warning"> Public Gists: ${user.public_gists}</span>
+            <span class = "btn btn-success"> Followers: ${user.followers}</span>
+            <span class = "btn btn-info"> Following: ${user.following}</span>
             <br><br>
             <ul class = "list-group">
             <li class = "list-group-item">Company: ${user.company}</li>
